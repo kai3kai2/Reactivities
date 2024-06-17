@@ -1,4 +1,3 @@
-import React from 'react';
 import { Grid } from 'semantic-ui-react';
 import { Activity } from '../../../app/models/activity';
 import ActivityList from './ActivityList';
@@ -13,10 +12,11 @@ interface Props {
   editMoed: boolean;
   openForm: (id:string) => void;
   closeForm: () => void;
+  createOrEdit: (activity:Activity) => void;
 }
 
 export default function ActivityDashBoard({activities, selectedActivity, selectActivity, cancelSelectActivity
-  , editMoed, openForm, closeForm
+  , editMoed, openForm, closeForm, createOrEdit
 }: Props)
 {
   return(
@@ -32,7 +32,7 @@ export default function ActivityDashBoard({activities, selectedActivity, selectA
         openForm={openForm}
         />}
         {editMoed &&
-        <ActivityForm closeForm={closeForm} activity={selectedActivity}/>}
+        <ActivityForm closeForm={closeForm} activity={selectedActivity} createOrEdit={createOrEdit}/>}
       </Grid.Column>
     </Grid>
   )
