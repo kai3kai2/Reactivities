@@ -1,0 +1,211 @@
+[33mcommit 2b0619185b6379cf256693bb1769d2122a1c32a8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Fri Jun 21 00:01:13 2024 +0800
+
+    refactor view activity by mobx
+
+[33mcommit e5c99fa3c264447c96f92310dcc9de942a384bf5[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Thu Jun 20 22:50:22 2024 +0800
+
+    add strict model state
+
+[33mcommit f2a289a2c32adb9234c322c48db0b5810d6ca3f7[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Thu Jun 20 22:41:25 2024 +0800
+
+    refactor app use mobx state
+
+[33mcommit ff876e8aa7090d4eb0565d1553cebdd67eb1fe70[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Thu Jun 20 20:02:25 2024 +0800
+
+    add mobx、mobx-react
+
+[33mcommit 45faeda9a36f0649818008d809b482fe3dc0c5d9[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 18 23:45:50 2024 +0800
+
+    add delete activity on server
+
+[33mcommit 4e25bbfd900f62383ce0289659d38b3752f84b69[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 18 23:07:57 2024 +0800
+
+    update date in server
+
+[33mcommit 772e566876a0d35f9311a13813757e70e717f593[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 18 22:36:24 2024 +0800
+
+    add loding indicatosr component
+
+[33mcommit 483570c1ac86fc4b9605c63e0745755f8ecfb66f[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 18 22:14:19 2024 +0800
+
+    add type for type and adjust dateform
+
+[33mcommit a372cb52562cebb5811a23e4a7b671521a8ba246[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 18 21:13:01 2024 +0800
+
+    setting axios step1
+
+[33mcommit 29980e7de562393ca248bcce001f08ccba882872[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 18 08:15:16 2024 +0800
+
+    add delete activity
+
+[33mcommit 8f64d6a8f27908220bd2fad9cd3c84fa86605994[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 18 08:04:24 2024 +0800
+
+    add uuid of id
+
+[33mcommit b94631d09862f9acc7dee5a244547532e6df3735[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Mon Jun 17 23:38:05 2024 +0800
+
+    update edit&create function can update view
+
+[33mcommit 19818370062096870121f3fad0756859bc9cca62[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Mon Jun 17 23:14:30 2024 +0800
+
+    update edit's Activity From state
+
+[33mcommit e032f8e1151c3eb025d91c714c2d9ec86f1e583c[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Mon Jun 17 22:33:18 2024 +0800
+
+    let button can click
+
+[33mcommit b1d20d5546a6c23542a422d27574020a99e005e8[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Mon Jun 17 21:27:27 2024 +0800
+
+    add createForm and selecting activity view
+
+[33mcommit 2ea0cc9c318d97487c1528636f080d746525d53a[m
+Merge: e7cc301 5c34fe5
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Mon Jun 17 20:32:05 2024 +0800
+
+    merge abort
+
+[33mcommit 5c34fe5e65aac3f432bcc102ebb5b2d0365935e2[m
+Author: onlyyou000u@gmail.com <onlyyou000u@gmail.com>
+Date:   Sun Jun 16 22:26:11 2024 +0800
+
+    add view details
+
+[33mcommit 20f18f12340afb3a35ef30a5ca0c300cf11de838[m
+Author: onlyyou000u@gmail.com <onlyyou000u@gmail.com>
+Date:   Sun Jun 16 21:42:56 2024 +0800
+
+    add ActivityList
+
+[33mcommit ba941bd10ca5c977dbe524528a7116c637a4b72b[m
+Author: onlyyou000u@gmail.com <onlyyou000u@gmail.com>
+Date:   Sun Jun 16 21:26:03 2024 +0800
+
+    add ActivityDashBoard
+
+[33mcommit fb4fea58f7f8073f1d644d634a371d46382f487e[m
+Author: onlyyou000u@gmail.com <onlyyou000u@gmail.com>
+Date:   Sun Jun 16 21:03:31 2024 +0800
+
+    add NavBar
+
+[33mcommit bb59a42bce9ac790572746c631e602fa2b187559[m
+Author: onlyyou000u@gmail.com <onlyyou000u@gmail.com>
+Date:   Sun Jun 16 19:41:41 2024 +0800
+
+    add Activity interface
+
+[33mcommit 58807a777c6a291524854d5fc2e6a9437658337c[m
+Author: onlyyou000u@gmail.com <onlyyou000u@gmail.com>
+Date:   Sun Jun 16 19:20:09 2024 +0800
+
+    adjust folder structure in React
+
+[33mcommit e7cc3017a4925b8645be4c354c4d290a480d5c09[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Thu Jun 13 22:12:24 2024 +0800
+
+    housingKeeping API Extension
+
+[33mcommit 5f0e5d4f56c8ca199e1b8721b540e5b42949f9d6[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Wed Jun 12 23:21:37 2024 +0800
+
+    using automapping to update edit and add delete
+
+[33mcommit 9ac4031c530fa472a6bf96cddfd53abed21206c2[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Wed Jun 12 21:37:25 2024 +0800
+
+    add basic edit
+
+[33mcommit 6696bc0216279a6548a1072f3f276da7f799e72b[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Wed Jun 12 21:14:41 2024 +0800
+
+    add create
+
+[33mcommit 0d5cfe5b8e16a935ca481d388e2c736e1d96d2f1[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Wed Jun 12 00:15:47 2024 +0800
+
+    refactor activity id catch by using meditor
+
+[33mcommit 2c0aae5efecc2614cc2a10226ad177ba265bd710[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 11 23:52:00 2024 +0800
+
+    simplify controller
+
+[33mcommit eac831edd76124c7e24c1528cca2f70287e7b112[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 11 23:48:56 2024 +0800
+
+    create meditor
+
+[33mcommit 3fb1fb4332889d0273bb51e11cdb0fb5742d4b8e[m
+Merge: 2079294 49ff074
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 11 23:05:48 2024 +0800
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 2079294e454476843fbf2dc415e07d1dd472a0c8[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Tue Jun 11 23:02:50 2024 +0800
+
+    re catch1
+
+[33mcommit 49ff0748be434ba5fc5820bcd1beab37e93dacd0[m
+Author: onlyyou000u@gmail.com <onlyyou000u@gmail.com>
+Date:   Mon Jun 10 23:28:19 2024 +0800
+
+    end of section3
+
+[33mcommit e51cfb9a0cb2730b5d9d348052a5399e67838d0b[m
+Author: onlyyou000u@gmail.com <onlyyou000u@gmail.com>
+Date:   Mon Jun 10 23:27:35 2024 +0800
+
+    end of section 3
+
+[33mcommit e8c110013e973fa4ca6d4260df6ab1a9cef7e796[m
+Author: onlyyou000u@gmail.com <onlyyou000u@gmail.com>
+Date:   Mon Jun 10 22:21:21 2024 +0800
+
+    pratice typesript
+
+[33mcommit 4894916442d18668193e941953f2dee89e45cc36[m
+Author: kai3kai2 <onlyyou000u@gmail.com>
+Date:   Sat Jun 1 16:46:13 2024 +0800
+
+    projects create
