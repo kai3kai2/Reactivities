@@ -40,7 +40,7 @@ export default function ActivityListItem({activity} : Props) {
       <Segment secondary>
         Attendess go here
       </Segment>
-      <Segment>
+      <Segment clearing>
         <span>{activity.description}</span>
         <Button
           as={Link}
