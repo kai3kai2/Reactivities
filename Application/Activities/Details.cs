@@ -19,9 +19,9 @@ namespace Application.Activities
         public class Handler : IRequestHandler<Query, Result<ActivityDto>>
         {
             public DataContext _context { get; }
-            private readonly Mapper _mapper;
+            private readonly IMapper _mapper;
 
-            public Handler(DataContext context, Mapper mapper)
+            public Handler(DataContext context, IMapper mapper)
             {
                 _mapper = mapper;
                 _context = context;
@@ -31,7 +31,7 @@ namespace Application.Activities
             {
                 var activity = await _context.Activities
                     .ProjectTo<ActivityDto>(_mapper.ConfigurationProvider)
-                    .FirstOrDefaultAsync(x => x.Id == request.Id);    
+                    .FirstOrDefaultAsync(x => x.Id == request.Id);
                 
                 return Result<ActivityDto>.Success(activity);
             }
