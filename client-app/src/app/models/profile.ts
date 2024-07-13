@@ -12,6 +12,7 @@ export interface Photo {
   username: string;
   url: string;
   isMain: boolean;
+  id: string;
 }
 
 export class Profile implements IProfile {
