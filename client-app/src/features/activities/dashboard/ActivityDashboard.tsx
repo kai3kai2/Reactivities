@@ -8,12 +8,13 @@ import ActivityFilters from './ActivityFilters';
 
 export default observer(function ActivityDashBoard()
 {
-  const {activityStore} = useStore();
+  const {activityStore, userStore} = useStore();
   const {loadActivities, activityRegistry}= activityStore;
+  const {setImage} = userStore;
 
   useEffect(() => {
-    if (activityRegistry.size <= 1) loadActivities();
-  },[activityRegistry.size, loadActivities])
+    if (activityRegistry.size <= 1 || setImage.length <= 1) loadActivities();
+  },[activityRegistry.size, loadActivities, setImage])
 
   if (activityStore.loadingInitial) return <LoadingComponent content='Loading activities'/>
   return(
