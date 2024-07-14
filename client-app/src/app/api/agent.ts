@@ -79,7 +79,14 @@ const Activities = {
 }
 
 const Profiles = {
-    get: (username: string) => requests.get<Profile>(`/profiles/${username}`)
+    get: (username: string) => requests.get<Profile>(`/profiles/${username}`),
+    uploadPhoto: (file: Blob) => {
+        const formData = new FormData();
+        formData.append('File', file);
+        return axios.post('photos', formData, {
+            headers: {'Content-Type' : 'multipart/form-data'}
+        })
+    }
 }
 
 const Account = {
