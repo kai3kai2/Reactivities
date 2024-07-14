@@ -78,6 +78,12 @@ const Activities = {
     attend: (id: string) => requests.post<void>(`/activities/${id}/attend`, {})
 }
 
+const Account = {
+    current: () => requests.get<User>('/account'),
+    login: (user: UserFormValues) => requests.post<User>('/account/login', user),
+    register: (user: UserFormValues) => requests.post<User>('/account/register', user)
+}
+
 const Profiles = {
     get: (username: string) => requests.get<Profile>(`/profiles/${username}`),
     uploadPhoto: (file: Blob) => {
@@ -86,13 +92,9 @@ const Profiles = {
         return axios.post('photos', formData, {
             headers: {'Content-Type' : 'multipart/form-data'}
         })
-    }
-}
-
-const Account = {
-    current: () => requests.get<User>('/account'),
-    login: (user: UserFormValues) => requests.post<User>('/account/login', user),
-    register: (user: UserFormValues) => requests.post<User>('/account/register', user)
+    },
+    setMainPhoto: (id: string) => requests.post(`/photos/${id}/setMain`, {}),
+    deletePhoto: (id: string) => requests.del(`/photos/${id}`)
 }
 
 const agent = {
