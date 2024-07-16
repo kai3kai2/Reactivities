@@ -1,6 +1,6 @@
 import { HubConnection, HubConnectionBuilder, LogLevel } from "@microsoft/signalr";
 import { ChatComment } from "../models/comment";
-import { makeAutoObservable, runInAction } from "mobx";
+import { makeAutoObservable, runInAction, values } from "mobx";
 import { store } from "./store";
 
 export default class CommentStore {
@@ -40,5 +40,15 @@ export default class CommentStore {
     clearComments = () => {
         this.comments = [];
         this.stopHubConnection();
+    }
+
+    addComment = async (values: any) => {
+        values.activityId = store.activityStore.selectedActivity?.id;
+
+        try {
+            await this.hubConnection?.invoke('SendComment', values);
+        } catch(error) {
+            console.log(error);
+        }
     }
 }
