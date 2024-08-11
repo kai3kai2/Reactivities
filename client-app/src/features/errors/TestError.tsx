@@ -4,7 +4,7 @@ import { useState } from "react";
 import ValidationError from "./ValidationError";
 
 export default function TestErrors() {
-    const baseUrl = import.meta.env.VITE_API_URL + '/'
+    const baseUrl = import.meta.env.VITE_API_URL + '/api/'
     const [errors, setErrors] = useState();
 
     function handleNotFound() {

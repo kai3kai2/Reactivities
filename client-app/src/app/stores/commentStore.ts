@@ -50,7 +50,7 @@ export default class CommentStore {
         this.stopHubConnection();
     }
 
-    addComment = async (values: any) => {
+    addComment = async (values: {body: string, activityId?: string}) => {
         values.activityId = store.activityStore.selectedActivity?.id;
 
         try {
