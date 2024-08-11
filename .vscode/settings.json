@@ -1,4 +1,6 @@
 {
     "csharpextensions.privateMemberPrefix": "_",
-    "csharpextensions.useThisForCtorAssignments": false
+    "csharpextensions.useThisForCtorAssignments": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/f4f7d439-b9ec-4b86-b568-0e2e9e19f5d8/resourceGroups/Reactivities-group/providers/Microsoft.Web/sites/activity-test",
+    "appService.deploySubpath": "API\\bin\\Publish"
 }
