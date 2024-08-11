@@ -13,6 +13,10 @@ namespace Domain
         public string Category { get; set; }
 
         public string City { get; set; }
+        
+        public int locationX {get; set;}
+
+        public int locationY {get; set;}
 
         public string Venue { get; set; }
 
