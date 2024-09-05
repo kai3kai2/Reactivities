@@ -62,7 +62,7 @@ export default observer(function  ActivityForm() {
                         placeholderText="Date" 
                         name='date' 
                         showTimeSelect 
-                        timeCation='time' 
+                        timeCaption='time' 
                         dateFormat='MMMM d, yyyy h:mm aa'
                     />
                     <Header content='Location Details' sub color='teal' />
