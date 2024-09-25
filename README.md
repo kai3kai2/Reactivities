@@ -16,9 +16,9 @@
 - 容器 : Docker
 - 其他內部技術 : EntityFrameworkCore、IdentityModel.Tokens.Jwt、AutoMapper、
 FluentValidation、MediatR、CloudinaryDotNet...等。
-```
-專案特色:
-```
+
+### 專案特色:
+
 分層架構: 
 1. Application Layer :處理應用邏輯和工作流。
 2. Domain Layer :負責管理程式的核心業務邏輯。
@@ -26,6 +26,6 @@ FluentValidation、MediatR、CloudinaryDotNet...等。
 4. Client Layer :前端介面處理使用ReactJs/TyperScript。
 5. Persistence Layer :處理資料的持久化與存取
 6. Infrastructure Layer :部資源或服務的整合，本專案有使用Photo(存取大頭貼)、身分驗證。
-```
-即時通信: 使用 SignalR 實現即時通信功能(留言)
-分頁功能: 增加性能並使用分頁及自動加載網頁資料藉以增加使用者體驗。
+
+- 即時通信: 使用 SignalR 實現即時通信功能(留言)
+- 分頁功能: 增加性能並使用分頁及自動加載網頁資料藉以增加使用者體驗。
